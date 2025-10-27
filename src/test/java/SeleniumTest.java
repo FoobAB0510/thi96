@@ -34,8 +34,6 @@ public class SeleniumTest {
         Thread.sleep(3000);
         driver.findElement(By.id("btn-addtocart")).click();
         Thread.sleep(3000);
-        driver.findElement(By.xpath("/html/body/div[1]/header/div/div/div/div[3]/div/div[2]")).click();
-        Thread.sleep(3000);
         assertEquals("https://vitimex.com.vn/products/atr5033", driver.getCurrentUrl());
     }
 
